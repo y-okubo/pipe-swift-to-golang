@@ -3,7 +3,6 @@
 //  NamedPipe
 //
 //  Created by Yuki Okubo on 7/31/19.
-//  Copyright © 2019 Nekojarashi Inc. All rights reserved.
 //
 
 import Cocoa

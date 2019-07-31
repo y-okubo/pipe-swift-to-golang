@@ -11,7 +11,21 @@
 		06C547F522F1708B0026C7D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C547F422F1708B0026C7D1 /* ViewController.swift */; };
 		06C547F722F1708D0026C7D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06C547F622F1708D0026C7D1 /* Assets.xcassets */; };
 		06C547FA22F1708D0026C7D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06C547F822F1708D0026C7D1 /* Main.storyboard */; };
+		06C5480522F1768D0026C7D1 /* receiver in CopyFiles */ = {isa = PBXBuildFile; fileRef = 06C5480222F176740026C7D1 /* receiver */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		06C5480422F176810026C7D1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				06C5480522F1768D0026C7D1 /* receiver in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		06C547EF22F1708B0026C7D1 /* NamedPipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NamedPipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -21,6 +35,7 @@
 		06C547F922F1708D0026C7D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		06C547FB22F1708D0026C7D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06C547FC22F1708D0026C7D1 /* NamedPipe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NamedPipe.entitlements; sourceTree = "<group>"; };
+		06C5480222F176740026C7D1 /* receiver */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = receiver; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +52,7 @@
 		06C547E622F1708B0026C7D1 = {
 			isa = PBXGroup;
 			children = (
+				06C5480222F176740026C7D1 /* receiver */,
 				06C547F122F1708B0026C7D1 /* NamedPipe */,
 				06C547F022F1708B0026C7D1 /* Products */,
 			);
@@ -73,6 +89,7 @@
 				06C547EB22F1708B0026C7D1 /* Sources */,
 				06C547EC22F1708B0026C7D1 /* Frameworks */,
 				06C547ED22F1708B0026C7D1 /* Resources */,
+				06C5480422F176810026C7D1 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -279,7 +296,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nekojarashi.NamedPipe;
+				PRODUCT_BUNDLE_IDENTIFIER = "y-okubo.NamedPipe";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -297,7 +314,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nekojarashi.NamedPipe;
+				PRODUCT_BUNDLE_IDENTIFIER = "y-okubo.NamedPipe";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
